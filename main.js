@@ -58,7 +58,7 @@ const btnHero = (e) => {
             <button>
                 <i class="fa-solid fa-xmark fa-2xl" data-close='close'></i>
             </button>
-            hello world
+            
             <p>texto que da a demostrar la informacion que solicita el cliente final</p>
         </div>
         ` 

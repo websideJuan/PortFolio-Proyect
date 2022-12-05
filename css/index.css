@@ -309,6 +309,9 @@ li:hover a::after{
     align-items: center;
     justify-content: center;
     height: 25px;
+    border: 1px solid var(--color-text);
+    border-radius: 50px;
+    padding: .2rem 0;
 }
 
 .input__show{
@@ -324,7 +327,7 @@ li:hover a::after{
 }
 
 .input__show > input{
-    background-color: var(--color-text);
+    background-color: transparent;
     font-family: inherit;
     font-size: inherit;
     padding-left: .5rem;
@@ -347,8 +350,13 @@ li:hover a::after{
     border: none;
     cursor: pointer;
     transition: background-color 1s;
-    background-color: var(--color-text);
+    font-size: 1.5rem;
+}
 
+.btn-lupa i{
+    padding: 2px;
+    border-radius: 4px;
+    color: var(--color-text);
 }
 
 .article-social{
@@ -439,35 +447,38 @@ li:hover a::after{
     nav{
         padding: 2rem 1rem;
         justify-content: space-between ;
-        background-color: #202020;
     }
 
     ul{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         position:  fixed;
-        top: 100%;
+        top: 0%;
         left: 0;
-        width: 100%;
-        height: max-content;
+        width: 70%;
         background-color: #202020;
-        padding: 0rem 11rem;
         text-align: center;
-        height: 0;
+        height: 100vh;
         overflow: hidden;
-        transition: height 1s ease-in-out;
+        transition: transform 1s ease-in-out, opacity .9s ease;
+        transform: translate(-100%);
+        opacity: 0;
     }
     
     nav .showUl {
-        height: 300px;
+        transform: translate(0);
+        opacity: 1;
     }
 
     .menu-amburges{
         display: block;
+        padding: .5rem;
+        background-color: transparent;
+        color: var(--color-text);
+        border: none;
     }
 
-    .header{
-        clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
-    }
 
     .hero__perfil{
         grid-column: 2/12;
@@ -475,7 +486,7 @@ li:hover a::after{
     }
 
     .container-social{
-        transform: translate(-110%);
+        transform: translate(-120%);
     }
 }
 
