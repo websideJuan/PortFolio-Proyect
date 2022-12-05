@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+
+        <nav id="navegation">
+            <!-- <a href="#">s -->
+                <!-- <img src="./icons-for-portfolio/logo.png" alt="Logo for marker" style="filter: drop-shadow(0px 0px 3px rgba(255 255 255));"> -->
+                <!-- <p class="logoParagraph">Lorem ipsum dolor</p> -->
+            <!-- </a> -->
+            <div class="search" id="input">
+                <div class="input__show" id="div-element">
+                    <input type="text" name="" id="">
+                </div>
+                <button
+                    
+                    class="btn-lupa"
+                >
+                    <img src="./icons-for-portfolio/search-alt-2-regular-24.png" width="100%" height="25px" alt="search-lupa" data-btn="btn">
+                </button>
+            </div>
+            <ul id="navShoe">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#skill-sets">skill-sets</a>
+                </li>
+            </ul>
+
+            <a href="#" class="menu-amburges">
+                <i class="fa-solid fa-bars fa-2xl" data-showMrnu="showMrnu"></i>
+            </a>
+        </nav>
+
+    </header>
+    <main class="hero">
+
+        <section class="header" >
+            <picture class="header__img">
+                <img src="./assets/background-2672565_1280.jpg" alt="img headder" >
+            </picture>
+            <div class="header__text" >
+                <h1>Juan Herrera</h1>
+                <p id="hero">Desarrollador Web, fullstack</p>
+                <a href="#"
+                    class="cta-btn cta--id"
+                    id="btn_hero"
+                    data-btnHero="hero"
+                >
+                    Leer Mas
+                </a>
+            </div>
+        </section>
+        
+        <section class="hero__grid container" id="skill-sets">
+            <h2 class="title-Skill" id="title-skill">Skills</h2>
+            <section class="hero__perfil">
+                <h2>Fron-tend</h2>
+                
+                <p>
+                    Decidi tomar el camino de desarrollador web, el area de front-emd 
+                </p>
+                
+                <a href="#" class="cta-btn">
+                    Leer Mas
+                </a>
+                
+                <div class="hero__perfil__banner">
+                    <div class="card__perfil">
+                        <img src="./assets/OJ91BD0.jpg" class="card__img" alt="...">
+                    </div>
+                    <div class="card__perfil">
+                        <img src="./assets/Wavy_Bus-20_Single-04.jpg" class="card__img" alt="...">
+                    </div>
+                    <div class="card__perfil">
+                        <img src="./assets/19199360.jpg" class="card__img" alt="...">
+                    </div>
+                </div>
+            </section>
+            <div class="hero__child hero__child--bootstrap">
+                <!-- <img src="./icons-for-portfolio/bootstrap-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-bootstrap fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--css3">
+                <!-- <img src="./icons-for-portfolio/css3-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--figma">
+                <!-- <img src="./icons-for-portfolio/figma-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-figma fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Figma</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--git">
+                <!-- <img src="./icons-for-portfolio/git-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-git fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Git</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--github">
+                <!-- <img src="icons-for-portfolio/github-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-github fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Github</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--html5">
+                <!-- <img src="./icons-for-portfolio/html5-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-html5 fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>HTML</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--javascript">
+                <!-- <img src="./icons-for-portfolio/javascript-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-js fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Javascript</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--react">
+                <!-- <img src="./icons-for-portfolio/react-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-react fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Reactjs</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--sass">
+                <!-- <img src="./icons-for-portfolio/sass-logo-24.png" alt="icons Skillsets"> -->
+                <i class="fa-brands fa-sass fa-2xl"></i>
+                <div class="hero__child__content">
+                    <span>Sass</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--tailwind">
+                <img src="./icons-for-portfolio/tailwind-css-logo-24.png" alt="icons Skillsets">
+                <div class="hero__child__content">
+                    <span>Tailwind</span>
+                </div>
+            </div>
+            <div class="hero__child hero__child--visual">
+                <img src="./icons-for-portfolio/visual-studio-logo-24.png" alt="icons Skillsets">
+                <div class="hero__child__content">
+                    <span>Visual s. c.</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="portfolio" id="portfolio">
+            <div class="wrapper container">
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+
+                <div class="grid__porfolio ">
+                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+                    <div class="grid__content">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner container">
+               
+                <div class="banner__center">
+                    
+                    <div class="card__banner" style="display: block;">
+                        
+                        <img src="./icons-for-portfolio/imgPerfil.jpg" width="100%" class="img" alt="">
+                        
+                        <div class="card__banner__two">
+                            <h4 class="banner__title">Lorem, ipsum.</h4>
+                            <p class="banner__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore aspernatur laboriosam! Cupiditate laboriosam libero repudiandae perferendis eum, eos voluptates repellat ut. Quibusdam doloribus, quasi facere placeat totam vel beatae.</p>
+                        </div>
+                    </div>
+
+                    <div class="card__banner">
+                        
+                        <img src="./icons-for-portfolio/imgPerfilTwo.png" width="100%" class="img" alt="">
+                        
+                        <div class="card__banner__two">
+                            <h4 class="banner__title">Lorem, ipsum.</h4>
+                            <p class="banner__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore aspernatur laboriosam! Cupiditate laboriosam libero repudiandae perferendis eum, eos voluptates repellat ut. Quibusdam doloribus, quasi facere placeat totam vel beatae.</p>
+                        </div>
+                    </div>
+
+                    <div class="card__banner">
+                        
+                        <img src="./icons-for-portfolio/imgPerfilTree.jpg" width="100%" class="img" alt="">
+                        
+                        <div class="card__banner__two">
+                            <h4 class="banner__title">Lorem, ipsum.</h4>
+                            <p class="banner__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore aspernatur laboriosam! Cupiditate laboriosam libero repudiandae perferendis eum, eos voluptates repellat ut. Quibusdam doloribus, quasi facere placeat totam vel beatae.</p>
+                        </div>
+                    </div>
+                
+
+                    <button class="banner__left" onclick="plusSlides(-1)">
+                        <img src="./icons-for-portfolio/left-arrow-solid-24.png" alt="" data-left="left">
+                    </button>
+
+
+                    <button class="banner__right" onclick="plusSlides(1)">
+                        <img src="./icons-for-portfolio/right-arrow-solid-24.png" alt="" data-right="right">
+                    </button>
+
+                    <br>
+
+                    <div style="text-align:center;">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
+                </div>
+        </section>
+    </main>
+
+    <article class="article-social">
+
+        <div class="container-social">
+
+            <a href="#" class="icons-social icons--facebook">
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+            </a>
+
+            <a href="#" class="icons-social icons--whatsapp">
+                <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            </a>
+
+            <a href="#" class="icons-social icons--instagram">
+                <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+        </div>
+
+    </article>
+
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+
+    <div class="pop-up" id="dinamic-element"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
