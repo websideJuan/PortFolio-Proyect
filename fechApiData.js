@@ -29,13 +29,10 @@ const setPintarCard = (datas) => {
         const img = templateWrapper.querySelector('.portfolio__img')
         img.setAttribute('alt', data.title)
         img.setAttribute('src', data.img)
-
         
         templateWrapper.querySelector('h5').textContent = data.title
         templateWrapper.querySelector('p').textContent = data.paragraph
 
-
-        
         const clone = templateWrapper.cloneNode(true)
 
         fragment.appendChild(clone)

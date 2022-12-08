@@ -7,7 +7,7 @@
             "paragraph":"Desafio que consiste en realizar una Card basado en un diseño",
             "urlRepo":"https://github.com/websideJuan/projecto-card-feature-section-for-Sass",
             "urlPage":"https://websidejuan.github.io/projecto-card-feature-section-for-Sass/",
-            "img":"../assets/screenshot/desktop-preview.jpg"
+            "img":"../assets/imgPrueva.jpg"
         },
         {
             "id":2,
@@ -16,7 +16,7 @@
             "paragraph":"Desafio que consiste en realizar una pagina de noticias basado en un diseño",
             "urlRepo":"https://github.com/websideJuan/Page-of-News-CssGrid",
             "urlPage":"https://paginadenoticias.netlify.app/",
-            "img":"../assets/screenshot/parjyu2ejag4sdrmbk2e.jpg"
+            "img":"../assets/imgPrueva.jpg"
         },
         {
             "id":3,
@@ -25,7 +25,7 @@
             "paragraph":"Desafio que consiste en realizar un calificador con validacion en javascript basado en un diseño",
             "urlRepo":"https://github.com/websideJuan/Interactive-rating-component",
             "urlPage":"https://websidejuan.github.io/Interactive-rating-component/",
-            "img":"../assets/screenshot/generator.jpg"
+            "img":"../assets/imgPrueva.jpg"
         },
         {
             "id":4,
@@ -34,7 +34,7 @@
             "paragraph":"Pagina de ventas, todo tipo de accesorios con carrito de compra y Usuario",
             "urlRepo":"",
             "urlPage":"",
-            "img":"../assets/screenshot/desktop-preview.jpg"
+            "img":"../assets/imgPrueva.jpg"
 
         },
         {
@@ -44,7 +44,7 @@
             "paragraph":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "urlRepo":"",
             "urlPage":"",
-            "img":"../assets/screenshot/desktop-preview.jpg"
+            "img":"../assets/imgPrueva.jpg"
         },
         {
             "id":6,
@@ -53,7 +53,7 @@
             "paragraph":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "urlRepo":"",
             "urlPage":"",
-            "img":"../assets/screenshot/desktop-preview.jpg"
+            "img":"../assets/imgPrueva.jpg"
         }
     
     ],
