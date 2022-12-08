@@ -1,0 +1,62 @@
+{
+    "data":[
+        {
+            "id":1,
+            "iuID":1,
+            "title":"Frontend-Mentor Card",
+            "paragraph":"Desafio que consiste en realizar una Card basado en un diseño",
+            "urlRepo":"https://github.com/websideJuan/projecto-card-feature-section-for-Sass",
+            "urlPage":"https://websidejuan.github.io/projecto-card-feature-section-for-Sass/",
+            "img":"../assets/screenshot/desktop-preview.jpg"
+        },
+        {
+            "id":2,
+            "iuID":1,
+            "title":"Frontend-Mentor NeW", 
+            "paragraph":"Desafio que consiste en realizar una pagina de noticias basado en un diseño",
+            "urlRepo":"https://github.com/websideJuan/Page-of-News-CssGrid",
+            "urlPage":"https://paginadenoticias.netlify.app/",
+            "img":"../assets/screenshot/parjyu2ejag4sdrmbk2e.jpg"
+        },
+        {
+            "id":3,
+            "iuID":1,
+            "title":"Frontend-Mentor Generator", 
+            "paragraph":"Desafio que consiste en realizar un calificador con validacion en javascript basado en un diseño",
+            "urlRepo":"https://github.com/websideJuan/Interactive-rating-component",
+            "urlPage":"https://websidejuan.github.io/Interactive-rating-component/",
+            "img":"../assets/screenshot/generator.jpg"
+        },
+        {
+            "id":4,
+            "iuID":1,
+            "title":"Comercio Electronico", 
+            "paragraph":"Pagina de ventas, todo tipo de accesorios con carrito de compra y Usuario",
+            "urlRepo":"",
+            "urlPage":"",
+            "img":"../assets/screenshot/desktop-preview.jpg"
+
+        },
+        {
+            "id":5,
+            "iuID":1,
+            "title":"Proyect", 
+            "paragraph":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "urlRepo":"",
+            "urlPage":"",
+            "img":"../assets/screenshot/desktop-preview.jpg"
+        },
+        {
+            "id":6,
+            "iuID":1,
+            "title":"Proyect", 
+            "paragraph":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "urlRepo":"",
+            "urlPage":"",
+            "img":"../assets/screenshot/desktop-preview.jpg"
+        }
+    
+    ],
+    "PREVENT":false,
+    "NEXT":true 
+}

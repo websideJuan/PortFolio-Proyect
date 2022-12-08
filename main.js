@@ -1,3 +1,6 @@
+import {pintarCards} from "./fechApiData.js"
+import{actionForm} from "./formulario.js"
+
 const div__element = document.getElementById('div-element')
 const hero = document.getElementById('hero')
 const navegation = document.getElementById('navegation')
@@ -5,26 +8,36 @@ const btn_hero = document.getElementById('btn_hero')
 const bodyE = document.getElementById('dinamic-element')
 
 
-let slideIndex = 1;
-
-window.addEventListener('scroll', () => scrollAnimation())
 
 
-const scrollAnimation = () => {
-    const header = document.querySelector('.header')
-    let scroll = document.body.scrollTop || parseInt(document.documentElement.scrollTop)
-    let height = document.documentElement.scrollHeight
-
-    // console.log(height)
-    // if(scroll ){
-    //     console.log('hello')
-    // }
-}
+window.addEventListener('DOMContentLoaded', e => {
+    // e.stopPropagation()
+    showItems()
+    pintarCards()
+    actionForm('container')
+})
 
 
-window.addEventListener('DOMContentLoaded', e => showItems())
 
 
+//intento de manejar el comportamiento del DOM
+
+// window.addEventListener('scroll', () => scrollAnimation())
+
+
+// const scrollAnimation = () => {
+//     const header = document.querySelector('.header')
+//     let scroll = document.body.scrollTop || parseInt(document.documentElement.scrollTop)
+//     let height = document.documentElement.scrollHeight
+
+//     console.log(height)
+//     if(scroll ){
+//         console.log('hello')
+//     }
+// }
+
+
+//funcion aniamcion al inicial la Pagina.
 
 
 const showItems = () => {
@@ -32,6 +45,11 @@ const showItems = () => {
     hero.style.transform = `translate(0)`
     btn_hero.style.transform = 'translate(0)'
 }
+
+
+
+
+// click con delegacion de eventos.
 
 document.addEventListener('click', (e) => {
     btnClick(e)
@@ -41,11 +59,7 @@ document.addEventListener('click', (e) => {
 })
 
 
-const navShoe = (e) => {
-    if(e.target.dataset.showmrnu === 'showMrnu'){
-        const ulNav = document.querySelector('nav ul').classList.toggle('showUl')
-    }
-}
+const navShoe = (e) => {if(e.target.dataset.showmrnu === 'showMrnu'){const ulNav = document.querySelector('nav ul').classList.toggle('showUl')}}
 
 const btnHero = (e) => {
 
@@ -58,7 +72,7 @@ const btnHero = (e) => {
             <button>
                 <i class="fa-solid fa-xmark fa-2xl" data-close='close'></i>
             </button>
-            
+
             <p>texto que da a demostrar la informacion que solicita el cliente final</p>
         </div>
         ` 
@@ -79,6 +93,10 @@ const btnClick = (e) => {
         }
     }
 }
+
+//control del acordion
+
+let slideIndex = 1;
 
 const setBtnHero = (e) => {if(e.target.dataset.close == 'close'){bodyE.classList.remove('showPop')}}
 

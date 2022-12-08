@@ -61,7 +61,8 @@
 
         <section class="header" >
             <picture class="header__img">
-                <img src="./assets/background-2672565_1280.jpg" alt="img headder" >
+                <source  srcset="./assets/background-2672565_1280.jpg" media="(min-width: 768px)">
+                <img src="./assets/background-2672565_640.jpg" alt="img headder" >
             </picture>
             <div class="header__text" >
                 <h1>Juan Herrera</h1>
@@ -177,57 +178,10 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="portfolio" id="portfolio">
-            <div class="wrapper container">
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-
-                <div class="grid__porfolio ">
-                    <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
-                    <div class="grid__content">
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
-                    </div>
-                </div>
-            </div>
+            <!--Intengrando los proyectos con javascript puro-->
+            <div class="wrapper container" id="wrapper"></div>
         </section>
 
         <section class="banner container">
@@ -311,8 +265,25 @@
         </div>
     </footer>
 
+
+
+
+
+
+
+    <template id="templateWrapper">
+        <div class="grid__porfolio ">
+            <img src="./assets/technology-1283624_640.jpg" alt="" class="portfolio__img">
+            <div class="grid__content">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe!</p>
+                <a href="#">Visit</a>
+            </div>
+        </div>
+    </template>
+
     <div class="pop-up" id="dinamic-element"></div>
 
-    <script src="./main.js"></script>
+    <script src="./main.js" type="module"></script>
 </body>
 </html>

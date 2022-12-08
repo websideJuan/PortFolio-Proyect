@@ -329,7 +329,7 @@ li:hover a::after{
 .input__show > input{
     background-color: transparent;
     font-family: inherit;
-    font-size: inherit;
+    font-size: .9rem;
     padding-left: .5rem;
     outline: none;
     position: absolute;
@@ -350,7 +350,7 @@ li:hover a::after{
     border: none;
     cursor: pointer;
     transition: background-color 1s;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .btn-lupa i{
